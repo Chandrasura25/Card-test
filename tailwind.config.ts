@@ -20,10 +20,15 @@ const config = {
     colors: {
         blue1: "#E9F3FE",
         blue2: "#699BF7",
+        blue3: "#A4E8FD",
         cyan: "#E58158",
         white: "#fff",
-        grey: "#777",
+        grey: "#F4F4F4",
     },
+    fontFamily: {
+        palanquin: ['Palanquin', 'sans-serif'],
+        montserrat: ['Montserrat', 'sans-serif'],
+      },
   },
 } satisfies Config
 

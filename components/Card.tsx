@@ -1,6 +1,6 @@
 const Card = () => {
   return (
-    <div className="shadow mx-auto rounded-[25px] border bg-blue1 p-4">
+    <div className="shadow-xl aspect-auto mx-auto rounded-[25px] border bg-blue1 p-4">
       <div className="flex justify-center items-center">
         <div className="h-[181px] bg-white rounded-[25px] relative flex justify-center items-center flex-col gap-2">
              <div className="absolute top-2 h-[31px] w-[31px] p-2 shadow bg-white rounded-full right-2">
@@ -10,7 +10,7 @@ const Card = () => {
                <img className="w-full" src="/assets/Illustration.png" alt="Card Image" />
              </div>
              <div className="h-1 w-4/5 rounded-full bg-grey overflow-hidden">
-               <div className="h-full w-1/2 bg-blue2"></div>
+               <div className="h-full w-1/2 bg-blue3"></div>
              </div>
         </div>
         <div className=" relative">
@@ -20,9 +20,9 @@ const Card = () => {
           <div className="px-6 pt-6">
               <div>
               <p className="font-semibold text-xs mb-2 bg-white text-cyan w-fit px-4 py-1 ">After Effects</p>
-              <p className="text-blue2 font-bold underline tracking-2">Animation in UI <br/>Design (Part 2)</p>
+              <p className="text-[#2B62CF] tracking-tight font-bold text-2xl font-montserrat">Animation in UI <br/>Design (Part 2)</p>
             </div>
-            <div className="pt-8">
+            <div className="pt-6">
               <div className="flex justify-between items-center gap-6">
                 <div className="flex text-sm gap-0.5">
                  <div className="h-5 w-5">
