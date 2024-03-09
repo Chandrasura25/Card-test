@@ -19,7 +19,7 @@ const Card = () => {
           </div>
           <div className="px-6 pt-6">
               <div>
-              <p className="font-semibold text-xs mb-2 bg-white text-cyan w-fit px-4 py-1 ">After Effects</p>
+              <button className="font-semibold text-xs mb-2 bg-white text-cyan w-fit px-4 py-1 outline-none border-none transition hover:bg-cyan hover:text-white">After Effects</button>
               <p className="text-[#2B62CF] tracking-tight font-bold text-2xl font-montserrat">Animation in UI <br/>Design (Part 2)</p>
             </div>
             <div className="pt-6">
