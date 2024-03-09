@@ -1,6 +1,6 @@
 const Card = () => {
   return (
-    <div className="max-w-md shadow-xl aspect-auto rounded-[25px] border bg-blue1 p-4 pl-1">
+    <div className="shadow-xl aspect-auto rounded-[25px] border bg-blue1 p-4 pl-1">
       <div className="flex justify-center items-center">
         <div className="h-[181px] bg-white rounded-[25px] relative flex justify-center items-center flex-col gap-2">
              <div className="absolute top-2 h-[31px] w-[31px] p-2 shadow bg-white rounded-full right-2">
